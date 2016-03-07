@@ -1,0 +1,12 @@
+﻿// Please check on "File -->Build Setting"
+enum EnumScene
+{
+	SCENE_NONE				= -1,
+	SCENE_SPLASH 			= SCENE_NONE + 1,
+	SCENE_LOADING			= SCENE_SPLASH + 1,
+	SCENE_MAINMENU		    = SCENE_LOADING + 1,
+	SCENE_GAMEPLAY		    = SCENE_MAINMENU + 1,
+	SCENE_IGM				= SCENE_GAMEPLAY + 1,
+	SCENE_ABOUT				= SCENE_IGM + 1,
+	SCENE_ONLINES			= SCENE_ABOUT + 1
+}
